@@ -34,7 +34,8 @@ $apps = @(
     'SoftDeluxe.FreeDownloadManager',
     'VideoLAN.VLC',
     'Spotify.Spotify',
-    'Spicetify.Spicetify'
+    'Spicetify.Spicetify',
+    'Obsidian.Obsidian'
 )
 
 foreach ($app in $apps) {
