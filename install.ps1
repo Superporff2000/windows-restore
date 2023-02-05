@@ -92,4 +92,8 @@ wget -O python.exe "https://www.python.org/ftp/python/3.11.1/python-3.11.1-amd64
 ## c. Anytype
 
 wget -O anytype.exe https://at9412003.fra1.cdn.digitaloceanspaces.com/Anytype%20Setup%200.30.0.exe
-./anytype.exe
+
+## d. Oreo Cursors
+## Note: These must be fixed and installed manually, because automatic install fails for some reason
+
+wget -O oreo-cursors-by-niivu.zip "https://wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/dd78c78e-d2e1-42b8-9d08-bc5df634a6c6/de8pcdj-42f9f814-889a-4d12-8efa-953319de7268.zip?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImV4cCI6MTY3NTU5NzY4NywiaWF0IjoxNjc1NTk3MDc3LCJqdGkiOiI2M2RmOTUxZmYyNDdmIiwib2JqIjpbW3sicGF0aCI6IlwvZlwvZGQ3OGM3OGUtZDJlMS00MmI4LTlkMDgtYmM1ZGY2MzRhNmM2XC9kZThwY2RqLTQyZjlmODE0LTg4OWEtNGQxMi04ZWZhLTk1MzMxOWRlNzI2OC56aXAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.ZXoCIVtUm4fJgMel8ws3bNycPe8ovBCAoKgP39qaFXg&filename=oreo_cursors_by_niivu_de8pcdj.zip"
