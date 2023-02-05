@@ -3,6 +3,19 @@
 # and installed git using winget:
 # winget install -d --id Git.Git
 
+# 0. IMPORTANT - Create a restore point
+
+$restorePointDescription = "Windows 11 in vanilla state after fresh install."
+$restorePointType = "APPLICATION_INSTALL"
+
+Write-Host "Creating a system restore point..."
+Write-Host "Restore Point Description: $restorePointDescription"
+Write-Host "Restore Point Type: $restorePointType"
+
+Checkpoint-Computer -Description $restorePointDescription -RestorePointType $restorePointType
+
+Write-Host "Restore Point has been created successfully! Lets proceed with the application install"
+
 # 1. Install all the necessary apps using winget
 
 $apps = @(
@@ -26,6 +39,7 @@ $apps = @(
 
 foreach ($app in $apps) {
     Write-Host "Installing $app"
+    Write-Host ""
     winget install -e --silent --id $app --accept-source-agreements --accept-package-agreements
 }
 
