@@ -26,7 +26,7 @@ $apps = @(
 
 foreach ($app in $apps) {
     Write-Host "Installing $app"
-    winget install -e --silent --id $app[] --accept-source-agreements --accept-package-agreements
+    winget install -e --silent --id $app --accept-source-agreements --accept-package-agreements
 }
 
 # 2. Setup some of the apps and restore configs:
